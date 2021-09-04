@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="model:ejb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/model_ejb_exploded</output-path>
+    <root id="root">
+      <element id="module-output" name="model" />
+    </root>
+  </artifact>
+</component>

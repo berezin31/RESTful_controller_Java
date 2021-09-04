@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="appscott">
+    <output-path>$PROJECT_DIR$/out/artifacts/appscott</output-path>
+    <root id="archive" name="appscott.ear">
+      <element id="artifact" artifact-name="appscott exploded" />
+      <element id="directory" name="lib">
+        <element id="artifact" artifact-name="modeldb:jar" />
+      </element>
+      <element id="artifact" artifact-name="model:ejb" />
+      <element id="artifact" artifact-name="controller" />
+    </root>
+  </artifact>
+</component>

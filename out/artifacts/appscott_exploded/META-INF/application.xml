@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_8.xsd"
+             version="8">
+
+
+    <module>
+        <ejb>model_ejb.jar</ejb>
+    </module>
+    <module id="controller-Web">
+        <web>
+            <web-uri>controller.war</web-uri>
+            <context-root>controller</context-root>
+        </web>
+    </module>
+</application>

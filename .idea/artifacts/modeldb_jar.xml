@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="modeldb:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/modeldb_jar</output-path>
+    <root id="archive" name="modeldb.jar">
+      <element id="module-output" name="modeldb" />
+    </root>
+  </artifact>
+</component>
